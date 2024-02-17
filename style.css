@@ -1,0 +1,39 @@
+.key {}
+
+.key .key-red {
+    color: red;
+}
+
+.key .key-green {
+    color: blue;
+}
+
+.key .key-blue {
+    color: #1dba47;
+}
+
+.link {}
+
+/* For paragraph sections on the main page, `index.html` */
+.mainpagesection {}
+
+.pagetitle {
+    color: black;
+
+}
+
+/* This is only for the title of Table of Contents */
+.tableofcontents h2 {}
+
+/* This is for the subheadings of the Table of Contents */
+/* TODO */
+
+/* This is for the hyperlinks of the Table of Contents */
+/* TODO */
+
+
+/* Special Tags */
+.todo {
+    color: red;
+    font-family: DejaVu Sans Mono, monospace;
+}
