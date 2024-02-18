@@ -1,15 +1,33 @@
-.key {}
-
-.key .key-red {
-    color: red;
+/** Displays programming languages */
+.projects .tools {
+    font-family: OCR A Std, monospace;
 }
 
-.key .key-green {
-    color: blue;
+/* Literally just the word "Tools:" */
+.projects .tools strong {
+    
 }
 
-.key .key-blue {
-    color: #1dba47;
+.tableofcontents .key-big {
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+/* I guess `key-medium` and `key-small` is the same for now. */
+.tableofcontents .key-medium {
+    font-style: italic;
+
+}
+
+.tableofcontents .key-small {
+    font-style: italic;
+    color:#909090;
+}
+
+.tableofcontents .subcontent {
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .link {}
@@ -33,7 +51,7 @@
 
 
 /* Special Tags */
-.todo {
+.TODO {
     color: red;
     font-family: DejaVu Sans Mono, monospace;
 }

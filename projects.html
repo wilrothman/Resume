@@ -6,27 +6,126 @@
 </head>
 <body>
     <h1 class="pagetitle">My Projects</h1>
-    <p class="todo"> TODO: add projects. I wrote them down on my phone's note app.</p>
-
 
 <div class="tableofcontents">
     <h2>Table of Contents</h2>
-    <div class="key">
-    <h5>Key:</h5>
     <ul>
-        <li class="key-red">Big Projects</li>
-        <li class="key-green">Medium Projects</li>
-        <li class="key-blue">Small Projects</li>
-    </ul>
-    </div>
-    <p></p>
-    <ul>
-        <li>Graphics and Video Games</li>
+        <li class="subcontent">Graphics and Video Games</li>
         <ul>
-            <li><a>Mipmap and Triangle Rasterizer</a></li>
-            <li><a>Procedurally Generated Video Game</a></li>
+            <li class="key-big"><a>Mipmap and Triangle Rasterizer</a></li>
+            <li class="key-big"><a>Procedurally Generated Video Game</a></li>
+            <li class="key-medium"><a>Scheme Recursive Art Contest Submission</a></li>
         </ul>
     </ul>
+    <!--
+    <ul>
+        <li class="subcontent">Artificial Intelligence and Data Engineering</li>
+        <ul>
+            <li class="key-medium"><a>Email Spam Classifier</a></li>
+        </ul>
+    </ul>
+    <ul>
+        <li class="subcontent">Systems and Security</li>
+        <ul>
+            <li class="TODO">In progress...</li>
+        </ul>
+    </ul>
+    -->
+    <ul>
+        <li class="subcontent">Presentations</li>
+        <ul>
+            <li class="key-small">Apple Stock Analysis</li>
+            <li class="key-small">Mexican Literature Presentation</li>
+        </ul>
+    </ul>
+    <hr>
+</div>
+
+<div class="projects">
+    <h3>Mipmap and Triangle Rasterizer</h3>
+    <table>
+        <tbody>
+        <tr>
+            <td><img src="imgs/cs184-hw1-rasterizer/test4sr16.png" width="400px" align="middle" /><br></td>
+            <td><img src="imgs/cs184-hw1-rasterizer/nearest_sample16.png" width="300px" height="300px" align="middle" /><br></td>
+        </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td><img src="imgs/cs184-hw1-rasterizer/task7.png" width="400px" align="middle" /><br></td>
+                <td><img src="imgs/cs184-hw1-rasterizer/LNPL.png" width="300px" height="300px" align="middle" /><br></td>
+            </tr>
+            </tbody>     
+        </table>
+        <div class="tools"><strong>Tools:</strong> C++, CGL</div>
+        <p>My 2D rasterizer. It features modern anti-aliasing superampling, modeling support, barycentric coloring, mipmap pixel sampling, and mipmap level samplings. See writeup <a href="https://cal-cs184-student.github.io/hw-webpages-sp24-wilrothman/hw1/index.html">here</a>.</p>
+    <hr>    
+    
+    <h3>Procedurally Generated Video Game</h3>
+    <table>
+        <tbody>
+        <tr>
+            <td><img src="imgs/byow/seed.png" width="400px" height="215px"  align="middle" /><br></td>
+            <td><img src="imgs/byow/world1.png" width="400px" height="215px" align="middle" /><br></td>
+        </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td><img src="imgs/byow/world2.png" width="400px" height="215px" align="middle" /><br></td>
+                <td><img src="imgs/byow/world3.png" width="400px" height="215px" align="middle" /><br></td>
+            </tr>
+            </tbody>     
+        </table>
+        <div class="tools"><strong>Tools:</strong> Java, StdDraw</div>
+        <p>A 2D procedurally generated video game. It features difficult gameplay, randomized world generation and enemy behavior, save and load features, and seed selection. Note that the same seed always generates the same world, and different seeds generate different world. See <a href="https://youtu.be/lvslKNK7lr8?feature=shared">this video here</a>.</p>
+    <hr>    
+
+    <h3>Scheme Recursive Art Competition Submission</h3>
+    <table>
+        <tbody>
+        <tr>
+            <td><img src="imgs/sir-sierpinskis-star/star.png" width="600px" height="400px"  align="middle" /><br></td>        </tr>
+        </tbody>
+        </table>
+        <div class="tools"><strong>Tools:</strong> Scheme, Python</div>
+        <p>
+            My submission to a school art competition, made using their provided turtle in the Scheme programming language-- a tail recursive language-- which does not support iteration.
+            It is a particularly old language that has become esoteric through the years. See the code <a href="https://github.com/wilrothman/Sir-Sierpinsks-Star">here</a>.
+        </p>
+    <hr>
+      
+    <h3>Apple Stock Analysis</h3>
+
+        <div class="tools"><strong>Tools:</strong> Python, NumPy, Pandas</div>
+        <p>
+            This is a data science presentation I did for UC Berkeley's Data Science Society. 
+            It features an analysis of Apple stock (NASDAQ:APPL) in relation to their <strong>X</strong> posts (previously called Twitter during the creation of the project).
+            It was made in collaberation with
+            Austin Nicola Ardisaguptra (the supervisor),            
+            Rohan Ganguli,
+            David Li,
+            Rachel Park, and
+            Ivy Sim. 
+        </p>
+        <p>
+            See the presentation <a href="pdfs/twitter-and-stocks.pdf">here</a>. 
+            See the code <a href="https://github.com/wilrothman/Twitter-and-Stocks">here</a>.
+        </p>
+    <hr>
+
+    <h3>Mexican Literature Presentation</h3>
+        <div class="tools"><strong>Tools:</strong> Python, NumPy, Pandas</div>
+        <p>
+            This is a project I did for a general education English class. Because I went above and beyond and included data science where I did not have to,
+            I thought to include this here because I did my own research through compiling raw data.
+        </p>
+        <p>
+            See the presentation <a href="pdfs/mexican-lit.pdf">here</a>.
+            See the code <a href="https://github.com/wilrothman/Mexican-Literature-Presentation">here</a>.
+        </p>
+    <hr>
+    
+
 </div>
 
 </body>
